@@ -16,5 +16,42 @@
   "bugs": {
     "url": "https://github.com/sai1004/nodejs-api-structure/issues"
   },
-  "homepage": "https://github.com/sai1004/nodejs-api-structure#readme"
+  "homepage": "https://github.com/sai1004/nodejs-api-structure#readme",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.17.0",
+    "@types/handlebars": "^4.1.0",
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/node": "^12.6.8",
+    "@types/nodemailer": "^6.2.1",
+    "@types/randomstring": "^1.1.6",
+    "@types/swagger-jsdoc": "^3.0.1",
+    "@types/swagger-ui-express": "^3.0.1",
+    "@types/winston": "^2.4.4",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.5",
+    "@types/helmet": "0.0.43",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "class-validator": "^0.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "handlebars": "^4.1.2",
+    "helmet": "^3.20.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.17.1",
+    "nodemailer": "^6.3.0",
+    "randomstring": "^1.1.5",
+    "reflect-metadata": "^0.1.13",
+    "swagger-jsdoc": "^3.3.0",
+    "swagger-ui-express": "^4.0.7",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "typeorm": "^0.2.18",
+    "winston": "^3.2.1"
+  }
 }
